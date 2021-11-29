@@ -2,8 +2,9 @@ from turtle import Turtle, Screen
 import random
 
 screen = Screen()
-screen.setup(width=500, height=400)
-user_bet = screen.textinput(title="Make your bet", prompt="Choose Turtle that will win: ")
+screen.setup(width=1100, height=600)
+user_bet = screen.textinput(title="Make your bet", prompt="Choose Turtle that will win: "
+                                                          "Red/Orange/Yellow/Green/Blue/Purple ") 
 print(user_bet)
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 y_coordinates = [-300, -200, -100, 0, 100, 200]
